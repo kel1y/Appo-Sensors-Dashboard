@@ -160,24 +160,6 @@ export default function Home() {
           )}
         </CardContent>
       </Card>
-
-      <div className="mt-8">
-        <h2 className="text-xl font-bold mb-4">ESP32 Connection Information</h2>
-        <div className="bg-gray-100 p-4 rounded">
-          <p className="mb-2">
-            <strong>Endpoint URL:</strong> https://your-deployed-app.vercel.app/readings
-          </p>
-          <p className="mb-2">
-            <strong>Method:</strong> POST
-          </p>
-          <p className="mb-2">
-            <strong>Content-Type:</strong> application/json
-          </p>
-          <p className="mb-2">
-            <strong>Payload Format:</strong> {'{ "fsr": 123 }'}
-          </p>
-        </div>
-      </div>
     </main>
   )
 }
